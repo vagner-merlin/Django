@@ -1,0 +1,26 @@
+django informacion 
+curso de 3 horas
+> User setting ( para entrar al json )
+creamos intorno virtual para cada proyecto!
+    creamos proyecto virtual con cmd 
+        usamos pip / pip install virtualenv
+            virtualdnv venv 
+                lo activamos 
+                    Alt Gr + º -> \ para llegar a la ruta ( buscamos active y enter) 
+windows 
+    dir lista
+    cd entrar 
+    cd .. atras
+visual studio
+    crtl shift ñ -> new terminal 
+Django 
+    Instalar 
+        pip install django 
+            django-admin startproject (name project). punto para poner la carptea ahi mismo 
+                python manage.py runserver (podemos espesificar puerto si lo ponemos)
+Estrucutra de djagno 
+    venv entrono virtual 
+    mange.py ( programa administrativo )
+    (name del proyecto) codigo fuente 
+        permite usar archivos de python como cinfiguracion
+    dbsqlite base de datos 
