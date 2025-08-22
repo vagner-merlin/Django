@@ -24,3 +24,5 @@ Estrucutra de djagno
     (name del proyecto) codigo fuente 
         permite usar archivos de python como cinfiguracion
     dbsqlite base de datos 
+-> Creacion del proyecto 
+    
