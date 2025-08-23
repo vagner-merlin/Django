@@ -24,5 +24,19 @@ Estrucutra de djagno
     (name del proyecto) codigo fuente 
         permite usar archivos de python como cinfiguracion
     dbsqlite base de datos 
--> Creacion del proyecto 
-    
+-> Params
+    se puede recibir datos por los parametros de la utl 
+    <str:username> funcion para extraer dentro de utlpatterns
+    en vista podemos crear el procedimiento para que entre dato 
+    para concatenarlo 
+        %s para remplazar dentro del html 
+        urls 
+            aca solo especificamos que vamos a mostrar 
+        views 
+            podemos armar las funciones para luego poner en nuestra urls 
+
+-> Params y Models
+    Podemos hacer consultas con los modelos 
+     importando la carpeta podemos hacer las consultas 
+        Importamos los modelos a las vistas para poder usar 
+        sus tablas e igual Json response

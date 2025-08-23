@@ -2,6 +2,7 @@ from django.urls import path
 from . import views
 #aca cramos un archivo urls para poner todas las rutas aca de nuestra aplicacion 
 urlpatterns = [
-    path('', views.hello) ,
-    path('segundo/', views.hola_perro)
+    path('', views.hello),
+    path('projects/', views.projects),
+    path('Tasks/<int:id>', views.Tasks)
 ]
