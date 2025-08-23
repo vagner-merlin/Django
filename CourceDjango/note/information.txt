@@ -40,3 +40,27 @@ Estrucutra de djagno
      importando la carpeta podemos hacer las consultas 
         Importamos los modelos a las vistas para poder usar 
         sus tablas e igual Json response
+
+-> Django admin
+    python manage.py createsuperuser
+        byvagner 
+        devbonillas@gmail.com
+        adminn
+
+        importamos nuestro modelos al panel de administrador 
+        ese documento lo tenemos en nuestro app
+
+        def __str__(selft)
+            return name.sql 
+            este codigo me permite mostrar el name 
+
+-> render 
+    es para organizar el contenido y no tenerlo todo en uno 
+    templates
+
+    creamos multiples paginas lo ordenamos 
+    templates 
+        index.html 
+            ahi logica 
+
+    en el return render (resquest , 'name project')
